@@ -28,9 +28,9 @@ const Accordian = () => {
   };
 
   return (
-    <div className="flex flex-col items-start gap-2 p-5 ">
+    <div className="flex flex-col justify-center gap-2 p-5 min-h-screen m-auto">
       <button
-        className="rounded-full px-4 py-2 font-semibold text-sm bg-indigo-500 hover:bg-indigo-800 text-white shadow-sm"
+        className="w-48 rounded-full px-4 py-2 font-semibold text-sm bg-indigo-500 hover:bg-indigo-800 text-white shadow-sm"
         onClick={handleMultipleFlag}
       >
         On {isEnabledMultFlag ? "Multiple Selection" : "Single Selection"}
