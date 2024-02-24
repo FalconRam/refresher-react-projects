@@ -23,7 +23,7 @@ const ColorGenerator = () => {
 
   return (
     <div style={{ background: changableBgColor }}>
-      <div className="flex flex-col items-center justify-center gap-2 p-5 min-h-screen m-auto">
+      <div className="flex flex-col items-center justify-center gap-2 p-5 min-h-screen">
         <div className="flex justify-center gap-5">
           <button
             className="rounded-full px-4 py-2 font-semibold text-sm bg-indigo-500 hover:bg-indigo-800 text-white shadow-sm"
